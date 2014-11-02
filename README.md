@@ -3,14 +3,17 @@ This example project uses the Android NDK (Native Development Kit) and JNI (Java
 
 ###Prerequisites
 
-JDK
-Android SDK
-Android NDK
+- JDK
+- Android SDK
+- Android NDK
+- Android Support Library (may not have been automatically installed with the Android SDK)
 
 #####1. Clone the repository
 ```
 git clone https://github.com/byronh/ndk-helloworld.git
 ```
+
+If using Android Studio or IntelliJ IDEA, import the build.gradle file as a new project. Then you can skip everything after step 2 and just press the "Run" button in the top-right corner.
 
 #####2. Specify android-sdk and android-ndk location
 
